@@ -1,0 +1,18 @@
+/* This is a CSS comment */
+
+/* The body selector targets the <body> element in the HTML */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+}
+
+/* The h1 selector targets all <h1> elements */
+h1 {
+    color: blue; /* Sets the text color to blue */
+    text-align: center; /* Centers the text */
+}
+
+/* The p selector targets all <p> elements */
+p {
+    color: green; /* Sets the text color to green */
+    font-size: 16px; /* Sets the font size to 16 pixels */
+}

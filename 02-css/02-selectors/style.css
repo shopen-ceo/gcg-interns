@@ -1,0 +1,24 @@
+/* Element Selector */
+/* This selects all <p> elements */
+p {
+    font-style: italic;
+}
+
+/* ID Selector */
+/* This selects the element with id="main-heading" */
+#main-heading {
+    color: purple;
+}
+
+/* Class Selector */
+/* This selects all elements with class="intro-paragraph" */
+.intro-paragraph {
+    font-weight: bold;
+    color: navy;
+}
+
+/* Descendant Selector */
+/* This selects all <p> elements inside a <div> */
+div p {
+    background-color: lightgray;
+}

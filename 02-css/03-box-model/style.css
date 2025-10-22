@@ -1,0 +1,25 @@
+.box {
+    width: 300px; /* The width of the content area */
+    height: 200px; /* The height of the content area */
+
+    /* Padding is the space between the content and the border */
+    padding: 20px;
+
+    /* Border is the line around the padding and content */
+    border: 10px solid black;
+
+    /* Margin is the space outside the border */
+    margin: 50px;
+
+    background-color: lightblue;
+}
+
+/*
+    The total width of the element is:
+    width + left padding + right padding + left border + right border + left margin + right margin
+    300px + 20px + 20px + 10px + 10px + 50px + 50px = 460px
+
+    The total height of the element is:
+    height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+    200px + 20px + 20px + 10px + 10px + 50px + 50px = 360px
+*/

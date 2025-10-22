@@ -1,0 +1,29 @@
+.flex-container {
+    /* display: flex; enables a flex context for all its direct children. */
+    display: flex;
+
+    /* justify-content aligns flex items along the main axis (horizontally by default) */
+    /* common values: flex-start, flex-end, center, space-between, space-around */
+    justify-content: center;
+
+    /* align-items aligns flex items along the cross axis (vertically by default) */
+    /* common values: flex-start, flex-end, center, stretch, baseline */
+    align-items: center;
+
+    /* flex-direction defines the direction of the main axis */
+    /* common values: row, row-reverse, column, column-reverse */
+    flex-direction: row;
+
+    height: 300px; /* Height for the container to demonstrate alignment */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
