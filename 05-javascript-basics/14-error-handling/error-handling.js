@@ -76,3 +76,10 @@ try {
     console.error("Caught an unexpected error:", error);
   }
 }
+
+// --- Exercises ---
+
+// 1. Write a function `parseJSON` that takes a string and tries to parse it as JSON. If the string is invalid, it should catch the error and return `null`.
+// 2. Write a function `getUser` that takes a user object. If the user object doesn't have an `id` property, the function should `throw` a new `Error` with the message "User must have an ID."
+// 3. Wrap a call to the `getUser` function in a `try...catch` block and log the error message if it's thrown.
+// 4. Add a `finally` block to the `try...catch` from exercise 3 that logs "User lookup finished."

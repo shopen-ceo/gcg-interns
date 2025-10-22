@@ -79,3 +79,13 @@ for (let k = 0; k < 10; k++) {
   console.log(k);
 }
 console.log("\n");
+
+// --- Exercises ---
+
+// 1. Use a `for` loop to print the numbers from 1 to 10.
+// 2. Use a `while` loop to print the numbers from 10 down to 1.
+// 3. Use a `do...while` loop to ask the user for a number until they enter a number greater than 10. (Conceptual: you can simulate user input with a variable).
+// 4. Create an array of your favorite movies. Use a `for...of` loop to print each movie to the console.
+// 5. Create an object with some key-value pairs. Use a `for...in` loop to print each key and its corresponding value.
+// 6. Use a `for` loop to iterate from 1 to 20. Use the `continue` statement to skip the number 13.
+// 7. Use a `for` loop to iterate from 1 to 20. Use the `break` statement to stop the loop when the number 15 is reached.

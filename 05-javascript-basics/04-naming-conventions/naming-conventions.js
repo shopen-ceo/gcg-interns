@@ -69,3 +69,16 @@ class Wallet {
 // - Be descriptive and meaningful. `let a = 5;` is less clear than `let numberOfApples = 5;`.
 // - Avoid abbreviations unless they are widely understood (e.g., 'http', 'api').
 // - Be consistent with the chosen naming conventions throughout your project.
+
+// --- Exercises ---
+
+// 1. Below are some variables with unconventional names. Rewrite them using the correct JavaScript naming conventions.
+//    let user_name = "Alice";
+//    let USER_AGE = 25;
+//    const Max_Users = 100;
+//    class userprofile { /* ... */ }
+//    function calculate_total_price() { /* ... */ }
+
+// 2. Create a variable to store the number of items in a shopping cart. Choose a descriptive and conventional name.
+// 3. Create a constant to store the value of the gravitational constant (9.8). Choose a conventional name.
+// 4. Create a class for a `Product`. Choose a conventional name.

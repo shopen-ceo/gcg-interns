@@ -93,3 +93,14 @@ const greetGoodbye = makeGreeter("Goodbye");
 
 greetHello("Alice");
 greetGoodbye("Bob");
+
+// --- Exercises ---
+
+// 1. Create a function `makeAdder(x)` that returns a new function. The new function should take a number `y` and return `x + y`.
+//    - `const add5 = makeAdder(5);`
+//    - `console.log(add5(10)); // Should log 15`
+// 2. Create a "private" counter using a closure. It should have `increment`, `decrement`, and `getValue` methods, but the actual count variable should not be accessible from the outside.
+// 3. Write a function `createIdGenerator()` that returns a function. The returned function should generate a unique ID every time it's called, starting from 1.
+//    - `const nextId = createIdGenerator();`
+//    - `console.log(nextId()); // 1`
+//    - `console.log(nextId()); // 2`

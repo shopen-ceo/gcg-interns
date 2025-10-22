@@ -41,3 +41,11 @@ let objectVar = {
 console.log("Object:", objectVar);
 console.log("Object's name:", objectVar.name);
 console.log("Object's age:", objectVar.age);
+
+// --- Exercises ---
+
+// 1. Declare a variable for each of the 7 primitive data types.
+// 2. Use the 'typeof' operator to log the type of each variable to the console.
+// 3. Create an object representing a book, with properties like 'title' (string), 'author' (string), 'pages' (number), and 'isFiction' (boolean).
+// 4. Create a variable and assign it the value 'null'. Log its type. What do you observe?
+// 5. Create a variable without assigning it a value. Log its value and type.

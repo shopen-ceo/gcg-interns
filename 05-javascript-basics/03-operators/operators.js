@@ -82,3 +82,14 @@ console.log("typeof []:", typeof []);
 console.log("typeof undefined:", typeof undefined);
 console.log("typeof null:", typeof null); // This is a well-known quirk in JavaScript
 console.log("\n");
+
+// --- Exercises ---
+
+// 1. Create two variables, 'num1' and 'num2', and assign them number values.
+// 2. Perform and log the results of all 5 basic arithmetic operations (+, -, *, /, %) on 'num1' and 'num2'.
+// 3. Use the exponentiation operator to calculate 'num1' to the power of 'num2' and log the result.
+// 4. Create a variable 'counter' and initialize it to 0. Use the increment operator to increase its value and log it.
+// 5. Use the strict equality operator ('===') to compare the number 5 with the string "5". What is the result?
+// 6. Use the loose equality operator ('==') to compare the number 5 with the string "5". What is the result? Explain the difference in a comment.
+// 7. Create two boolean variables, 'isSunny' and 'isWarm'. Use the logical AND ('&&') and OR ('||') operators to create different weather scenarios and log the results.
+// 8. Use the ternary operator to create a variable 'isAdult' that is true if a variable 'age' is 18 or older, and false otherwise.

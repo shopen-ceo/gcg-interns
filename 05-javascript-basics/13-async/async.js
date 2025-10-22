@@ -82,3 +82,10 @@ async function processData() {
 processData();
 
 console.log("End of Async/Await example");
+
+// --- Exercises ---
+
+// 1. Create a function `simulateDownload` that returns a Promise. The promise should resolve after a 2-second delay (using `setTimeout`) with the message "Download complete!".
+// 2. Consume the `simulateDownload` promise using `.then()` and `.catch()` to log the success message or any potential errors.
+// 3. Create an `async` function `startDownload` that `await`s the result of the `simulateDownload` promise and logs the result to the console. Make sure to wrap it in a `try...catch` block.
+// 4. Modify `simulateDownload` to randomly either resolve or reject the promise. You can use `Math.random() > 0.5` to decide. Handle the rejection in both the `.catch()` and the `try...catch` block.

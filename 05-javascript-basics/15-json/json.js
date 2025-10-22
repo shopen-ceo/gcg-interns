@@ -74,3 +74,13 @@ fetch('https://api.example.com/data')
     console.error("Error fetching data:", error);
   });
 */
+
+// --- Exercises ---
+
+// 1. Create a JavaScript object representing a user profile with properties like 'username', 'email', and 'lastLogin' (a Date object).
+// 2. Use `JSON.stringify()` to convert the user profile object into a JSON string. Log the result.
+// 3. Use `JSON.stringify()` again, but this time use the third argument to format the output with an indentation of 2 spaces.
+// 4. You are given the following JSON string:
+//    `const productJSON = '{"name":"Laptop","price":1200,"inStock":true}';`
+//    Use `JSON.parse()` to convert it into a JavaScript object.
+// 5. Access and log the 'price' of the resulting product object.

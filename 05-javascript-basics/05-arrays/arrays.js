@@ -86,3 +86,14 @@ let matrix = [
 ];
 console.log("Multi-dimensional array (matrix):", matrix);
 console.log("Element at row 1, col 2:", matrix[1][2]); // 6
+
+// --- Exercises ---
+
+// 1. Create an array named 'favoriteFoods' with at least three of your favorite foods.
+// 2. Access and log the first and last elements of the 'favoriteFoods' array.
+// 3. Add a new food to the end of the array using the `push()` method.
+// 4. Remove the first food from the array using the `shift()` method.
+// 5. Create a new array named 'numbers' with values from 1 to 10.
+// 6. Use the `slice()` method to create a new array containing only the numbers from index 2 to 5 (inclusive).
+// 7. Use the `splice()` method to remove the number 8 from the 'numbers' array and add the numbers 11 and 12 in its place.
+// 8. Iterate over the 'favoriteFoods' array using a `forEach()` loop and log each food to the console.

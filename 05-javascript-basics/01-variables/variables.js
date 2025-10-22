@@ -30,3 +30,13 @@ let myVariable = "This is a string";
 console.log("myVariable as a string:", myVariable);
 myVariable = 100;
 console.log("myVariable as a number:", myVariable);
+
+// --- Exercises ---
+
+// 1. Declare a variable named 'favoriteColor' using 'let' and assign it your favorite color as a string.
+// 2. Declare a constant named 'BIRTH_YEAR' using 'const' and assign it the year you were born.
+// 3. Try to reassign a new value to 'BIRTH_YEAR'. What happens? Add a comment explaining the result.
+// 4. Declare a variable using 'var' inside a block (e.g., an if statement) and try to access it outside the block.
+//    `if (true) { var myOldSchoolVar = "I am old"; }`
+//    Then, console.log(myOldSchoolVar);
+// 5. Declare a variable using 'let' inside a block and try to access it outside the block. What's the difference?

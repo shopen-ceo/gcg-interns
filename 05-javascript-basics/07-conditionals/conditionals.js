@@ -87,3 +87,15 @@ let anotherVar = "hello"; // Truthy
 if (anotherVar) {
   console.log("anotherVar is truthy.");
 }
+
+// --- Exercises ---
+
+// 1. Create a variable 'userRole' and assign it a value ('admin', 'editor', or 'viewer').
+// 2. Write an `if...else if...else` statement to log a different message for each role.
+//    - 'admin': "Full access granted."
+//    - 'editor': "Can edit content."
+//    - 'viewer': "Can only view content."
+//    - Other: "Unknown role."
+// 3. Rewrite the above logic using a `switch` statement.
+// 4. Create a variable 'score' and assign it a number. Use a ternary operator to log "Passing" if the score is 50 or above, and "Failing" otherwise.
+// 5. Check if a variable 'inputValue' is truthy or falsy. Log a message indicating whether it has a value or not. Test it with different values like "", 0, null, and a non-empty string.

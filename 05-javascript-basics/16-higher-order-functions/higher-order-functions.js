@@ -84,3 +84,13 @@ const sumOfSquaresOfOdds = numbersForChaining
 
 console.log("Original numbers for chaining:", numbersForChaining);
 console.log("Sum of squares of odd numbers:", sumOfSquaresOfOdds);
+
+// --- Exercises ---
+
+// 1. Create an array of strings. Use `map()` to create a new array where each string is converted to uppercase.
+// 2. Create an array of numbers. Use `filter()` to create a new array containing only the numbers greater than 10.
+// 3. Create an array of numbers. Use `reduce()` to find the largest number in the array.
+// 4. Create an array of user objects, where each object has `name` and `age` properties. Use `filter()` to get an array of users who are 18 or older.
+// 5. From the array of users in exercise 4, use `map()` to create an array containing only their names.
+// 6. Chain `filter()` and `map()` to get the names of users who are younger than 30.
+// 7. Create an array of numbers. Use `reduce()` to count how many of the numbers are even. (Hint: the initial value of the accumulator can be 0).

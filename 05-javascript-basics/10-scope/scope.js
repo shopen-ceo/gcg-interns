@@ -71,3 +71,12 @@ function first() {
   second();
 }
 first();
+
+// --- Exercises ---
+
+// 1. Declare a global variable 'appName' and set it to "My Awesome App".
+// 2. Create a function that tries to log 'appName'. Does it work? Why?
+// 3. Create a function that declares a local variable 'userName'. Try to log 'userName' both inside and outside the function. What happens?
+// 4. Create a block (e.g., using `{}`) and declare a variable with `let` inside it. Try to access the variable outside the block.
+// 5. Do the same as exercise 4, but use `var`. What is the difference?
+// 6. Create a nested function structure. The outer function should have a variable, and the inner function should log that variable. This demonstrates lexical scoping.

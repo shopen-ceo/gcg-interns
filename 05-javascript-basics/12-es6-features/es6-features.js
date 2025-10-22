@@ -108,3 +108,12 @@ myPromise.then(result => console.log(result));
 for (const fruit of fruits) {
   console.log(fruit);
 }
+
+// --- Exercises ---
+
+// 1. Use a template literal to create a sentence that includes a variable for a person's name and age.
+// 2. Create an object for a user with 'name', 'email', and 'isAdmin' properties. Use object destructuring to extract 'name' and 'isAdmin' into variables.
+// 3. Create an array of numbers. Use array destructuring to get the first two numbers into variables.
+// 4. Create two arrays. Use the spread operator to create a new array that is a combination of the two.
+// 5. Create a function that takes an object as an argument and uses destructuring in the function parameter list to access its properties.
+// 6. Create a `Book` class with a constructor for 'title' and 'author'. Add a method `getDescription` that returns a string describing the book.

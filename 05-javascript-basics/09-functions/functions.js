@@ -84,3 +84,13 @@ function processData(data, callback) {
 processData("Some data", (data) => {
   console.log("Callback executed with:", data);
 });
+
+// --- Exercises ---
+
+// 1. Write a function declaration named 'calculateArea' that takes two parameters, 'width' and 'height', and returns the area of a rectangle.
+// 2. Write a function expression named 'getGreeting' that takes a 'name' parameter and returns a greeting string.
+// 3. Convert the 'getGreeting' function expression into an arrow function.
+// 4. Write an arrow function named 'isEven' that takes a number and returns 'true' if it's even and 'false' otherwise.
+// 5. Write a function that uses default parameters to greet a user. If no name is provided, it should default to "Guest".
+// 6. Write a function that uses rest parameters to calculate the average of any number of arguments.
+// 7. Write a higher-order function named 'operateOnNumbers' that takes two numbers and a callback function (e.g., add, subtract). The HOF should apply the callback to the two numbers and return the result.

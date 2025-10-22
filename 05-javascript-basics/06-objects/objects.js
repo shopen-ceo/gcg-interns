@@ -77,3 +77,13 @@ console.log("Student's city:", student.address.city);
 console.log("Object keys:", Object.keys(person));
 console.log("Object values:", Object.values(person));
 console.log("Object entries:", Object.entries(person));
+
+// --- Exercises ---
+
+// 1. Create an object named 'movie' with properties for 'title', 'director', 'releaseYear', and 'rating'.
+// 2. Access and log the 'title' and 'rating' of the 'movie' object.
+// 3. Add a new property 'genre' to the 'movie' object.
+// 4. Add a method named 'getSummary' to the 'movie' object that returns a string summary like "Title by Director, released in ReleaseYear."
+//    Call the method and log the result.
+// 5. Use the `delete` keyword to remove the 'rating' property from the 'movie' object.
+// 6. Use a `for...in` loop to iterate over the properties of the 'movie' object and log each key-value pair.
